@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateSet group="Adobe AEM">
+  <template name="cqTemplate" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;jcr:root xmlns:sling=&quot;http://sling.apache.org/jcr/sling/1.0&quot; xmlns:cq=&quot;http://www.day.com/jcr/cq/1.0&quot; xmlns:jcr=&quot;http://www.jcp.org/jcr/1.0&quot; xmlns:nt=&quot;http://www.jcp.org/jcr/nt/1.0&quot;&#10;    jcr:description=&quot;$DESCRIPTION$&quot;&#10;    jcr:primaryType=&quot;cq:Template&quot;&#10;    jcr:title=&quot;$TITLE$&quot;&#10;    allowedPaths=&quot;[$ALLOWED_PATHS$]&quot;&#10;    ranking=&quot;{Long}$RANKING$&quot;&gt;&#10;    &lt;jcr:content&#10;        cq:designPath=&quot;$DESIGN_PATH$&quot;&#10;        jcr:primaryType=&quot;cq:PageContent&quot;&#10;        sling:resourceType=&quot;$RESOURCE_TYPE$&quot;&gt;&#10;    &lt;/jcr:content&gt;&#10;&lt;/jcr:root&gt;&#10;$END$" description="Create template for Adobe AEM" toReformat="false" toShortenFQNames="true">
+    <variable name="DESCRIPTION" expression="" defaultValue="&quot;Enter the description&quot;" alwaysStopAt="true" />
+    <variable name="TITLE" expression="" defaultValue="&quot;Enter the title&quot;" alwaysStopAt="true" />
+    <variable name="ALLOWED_PATHS" expression="" defaultValue="&quot;Enter the allowed paths&quot;" alwaysStopAt="true" />
+    <variable name="RANKING" expression="" defaultValue="&quot;100&quot;" alwaysStopAt="true" />
+    <variable name="DESIGN_PATH" expression="" defaultValue="&quot;/etc/design/example&quot;" alwaysStopAt="true" />
+    <variable name="RESOURCE_TYPE" expression="" defaultValue="&quot;Enter a resource type: example/component/path&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="ColdFusion" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="GROOVY_EXPRESSION" value="false" />
+      <option name="GROOVY_STATEMENT" value="false" />
+      <option name="GROOVY_DECLARATION" value="false" />
+      <option name="OGNL" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="ASPECTJ" value="false" />
+      <option name="ACTION_SCRIPT" value="false" />
+      <option name="MXML" value="false" />
+      <option name="GSP" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="cqComponent" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;jcr:root xmlns:sling=&quot;http://sling.apache.org/jcr/sling/1.0&quot; xmlns:cq=&quot;http://www.day.com/jcr/cq/1.0&quot; xmlns:jcr=&quot;http://www.jcp.org/jcr/1.0&quot;&#10;    jcr:primaryType=&quot;cq:Component&quot;&#10;    jcr:title=&quot;$TITLE$&quot; &#10;    sling:resourceSuperType=&quot;$RESOURCE_SUPER_TYPE$&quot; /&gt;&#10;" description="Create a component for Adobe AEM" toReformat="false" toShortenFQNames="true">
+    <variable name="TITLE" expression="" defaultValue="&quot;Enter the title&quot;" alwaysStopAt="true" />
+    <variable name="RESOURCE_SUPER_TYPE" expression="" defaultValue="&quot;Enter the relative path of the type&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="ColdFusion" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="GROOVY_EXPRESSION" value="false" />
+      <option name="GROOVY_STATEMENT" value="false" />
+      <option name="GROOVY_DECLARATION" value="false" />
+      <option name="OGNL" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="ASPECTJ" value="false" />
+      <option name="ACTION_SCRIPT" value="false" />
+      <option name="MXML" value="false" />
+      <option name="GSP" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="cqDialog" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;jcr:root xmlns:cq=&quot;http://www.day.com/jcr/cq/1.0&quot; xmlns:jcr=&quot;http://www.jcp.org/jcr/1.0&quot;&#10;&#9;jcr:primaryType=&quot;cq:Dialog&quot; xtype=&quot;dialog&quot;&gt;&#10;&#10;&#9;&lt;items jcr:primaryType=&quot;cq:Widget&quot; xtype=&quot;tabpanel&quot;&gt;&#10;&#9;&#9;&lt;items jcr:primaryType=&quot;cq:WidgetCollection&quot;&gt;&#10;&#9;&#9;&#9;&lt;tab1 jcr:primaryType=&quot;cq:Panel&quot; title=&quot;Settings&quot;&gt;&#10;&#9;&#9;&#9;&#9;&lt;items jcr:primaryType=&quot;cq:WidgetCollection&quot;&gt;&#10;&#9;&#9;&#9;        $END$&#10;&#9;&#9;&#9;&#9;&lt;/items&gt;&#10;&#9;&#9;&#9;&lt;/tab1&gt;&#10;&#9;&#9;&lt;/items&gt;&#10;&#9;&lt;/items&gt;&#10;&lt;/jcr:root&gt;" description="Create dialog for Adobe AEM" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="ColdFusion" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="GROOVY_EXPRESSION" value="false" />
+      <option name="GROOVY_STATEMENT" value="false" />
+      <option name="GROOVY_DECLARATION" value="false" />
+      <option name="OGNL" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="ASPECTJ" value="false" />
+      <option name="ACTION_SCRIPT" value="false" />
+      <option name="MXML" value="false" />
+      <option name="GSP" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="cqDialogField" value="&lt;$TAG_NAME$ jcr:primaryType=&quot;cq:Widget&quot; fieldLabel=&quot;$FIELD_LABEL$&quot;&#10;    name=&quot;./$FIELD_NAME$&quot; xtype=&quot;$XTYPE$&quot; fieldDescription=&quot;$FIELD_DESCRIPTION$&quot;&#10;    defaultValue=&quot;$DEFAULT_VALUE$&quot; /&gt;" description="Create Dialog field for Adobe AEM" toReformat="false" toShortenFQNames="true">
+    <variable name="TAG_NAME" expression="" defaultValue="&quot;tag_name&quot;" alwaysStopAt="true" />
+    <variable name="FIELD_LABEL" expression="" defaultValue="&quot;Enter the field label&quot;" alwaysStopAt="true" />
+    <variable name="FIELD_NAME" expression="" defaultValue="&quot;Property name in the CQ instance&quot;" alwaysStopAt="true" />
+    <variable name="XTYPE" expression="" defaultValue="&quot;xtype of the field&quot;" alwaysStopAt="true" />
+    <variable name="FIELD_DESCRIPTION" expression="" defaultValue="&quot;Enter the field description&quot;" alwaysStopAt="true" />
+    <variable name="DEFAULT_VALUE" expression="" defaultValue="&quot;Enter the default value&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="ColdFusion" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="GROOVY_EXPRESSION" value="false" />
+      <option name="GROOVY_STATEMENT" value="false" />
+      <option name="GROOVY_DECLARATION" value="false" />
+      <option name="OGNL" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="ASPECTJ" value="false" />
+      <option name="ACTION_SCRIPT" value="false" />
+      <option name="MXML" value="false" />
+      <option name="GSP" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+</templateSet>
+
